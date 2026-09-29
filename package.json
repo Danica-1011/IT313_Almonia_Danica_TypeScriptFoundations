@@ -1,0 +1,19 @@
+{
+  "name": "it313-typescript-foundations",
+  "version": "1.0.0",
+  "description": "Laboratory 3 – TypeScript Foundations for React Native – Enrollment Eligibility Checker",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "author": "Danica Almonia",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
